@@ -6,7 +6,8 @@
 - Step 0.3, status code of the request without a token: 401
 - Step 0.4, the name of your pizza: A High Siciliana
 ![alt text](image/image1.png)
-- Step 0.12, results of the three runs without a session (optional):
+- Step 0.12, results of the three runs without a session (optional): run 1: failed 401, run 2: failed 401, run 3: failed 401
+![alt text](image/image2.png)
 - Step 0.16, blocks of "how many of the three tools are excluded":
 
 ## Defect report

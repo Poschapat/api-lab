@@ -1,5 +1,33 @@
 # api-lab
 
+API testing of QuickPizza (https://quickpizza.grafana.com) with pytest and requests.
+
+## How to install
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+(Windows PowerShell: `python -m venv .venv`, `.venv\Scripts\activate`,
+`pip install -r requirements.txt`)
+
+## How to run the tests
+
+Run all tests:
+```
+pytest -v
+```
+Run one test:
+```
+pytest -v test_ratings.py::test_delete_rating
+```
+Save the report of a full run:
+```
+pytest -v --html=report.html --self-contained-html
+```
+
+
 ![alt text](image/image3.png)
 
 ## Step A2: Base choice coverage
